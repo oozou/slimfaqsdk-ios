@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/cocoapods/l/SlimFAQSDK.svg?style=flat)](https://cocoapods.org/pods/SlimFAQSDK)
 [![Platform](https://img.shields.io/cocoapods/p/SlimFAQSDK.svg?style=flat)](https://cocoapods.org/pods/SlimFAQSDK)
 
-<img src="https://github.com/oozou/slimfaqsdk-ios/blob/master/screenshots/slimfaq_1.png" width="267px"/>
+<img src="https://github.com/oozou/slimfaqsdk-ios/blob/master/screenshots/screencast_1.gif" width="267px"/>
 
 ## Example
 
