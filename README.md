@@ -1,5 +1,6 @@
 # SlimFAQSDK
 
+[![Carthage compatible](https://img.shields.io/badge/Carthage-Compatible-brightgreen.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Version](https://img.shields.io/cocoapods/v/SlimFAQSDK.svg?style=flat)](https://cocoapods.org/pods/SlimFAQSDK)
 [![License](https://img.shields.io/cocoapods/l/SlimFAQSDK.svg?style=flat)](https://cocoapods.org/pods/SlimFAQSDK)
 [![Platform](https://img.shields.io/cocoapods/p/SlimFAQSDK.svg?style=flat)](https://cocoapods.org/pods/SlimFAQSDK)
@@ -15,16 +16,21 @@ iOS 9.0 and above
 
 ## Installation
 
-SlimFAQSDK is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+SlimFAQSDK is available through [CocoaPods](https://cocoapods.org) and [Carthage](https://github.com/Carthage/Carthage).
 
+### CocoaPods
+To install it via CocoaPods, simply add the following line to your Podfile:
 ```ruby
 pod 'SlimFAQSDK'
 ```
 
-## Usage
+### Carthage
+To install it via Carthage add following line to your Cartfile:
+```ruby
+github "oozou/slimfaqsdk-ios"
+```
 
-### CocoaPods
+## Usage
 ```swift
 // setup
 SlimFAQSDK.shared.set(clientID: "slimwiki")
@@ -37,11 +43,7 @@ do {
 }
 ```
 
-### Carthage
-// tbd
-
 ## Author
-
 Stanislau Baranouski, stan@oozou.com
 
 ## License
