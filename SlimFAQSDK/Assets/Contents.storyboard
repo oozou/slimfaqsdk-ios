@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="THj-eb-Nyu">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--SlimFAQ Contents View Controller-->
+        <scene sceneID="9sa-Yx-Nh4">
+            <objects>
+                <viewController storyboardIdentifier="SlimFAQContentsViewController" modalPresentationStyle="overCurrentContext" id="THj-eb-Nyu" customClass="SlimFAQContentsViewController" customModule="SlimFAQSDK" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PuX-eH-TgN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bjv-Tp-d5E">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <items>
+                                    <barButtonItem systemItem="stop" id="wfa-2F-CXB">
+                                        <connections>
+                                            <action selector="closeButtonAction:" destination="THj-eb-Nyu" id="9pM-qq-9pD"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="DeK-ap-RWd"/>
+                                    <barButtonItem title="Item" id="OLs-wI-6pl"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="AF2-ze-aJf"/>
+                                    <barButtonItem systemItem="refresh" id="AjN-m2-xEZ">
+                                        <connections>
+                                            <action selector="refreshButtonAction:" destination="THj-eb-Nyu" id="1DX-wE-AdJ"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="bHE-ca-Tpv">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="O4a-9O-7ef">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="cra-XH-9Xy">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="bHE-ca-Tpv" firstAttribute="leading" secondItem="Cad-po-eJ5" secondAttribute="leading" id="9q0-a2-wd5"/>
+                            <constraint firstItem="Bjv-Tp-d5E" firstAttribute="top" secondItem="Cad-po-eJ5" secondAttribute="top" id="GlC-RF-Uem"/>
+                            <constraint firstItem="Bjv-Tp-d5E" firstAttribute="bottom" secondItem="bHE-ca-Tpv" secondAttribute="top" id="J1d-Cp-9Tb"/>
+                            <constraint firstItem="Bjv-Tp-d5E" firstAttribute="leading" secondItem="Cad-po-eJ5" secondAttribute="leading" id="Wd5-uy-u9t"/>
+                            <constraint firstItem="Bjv-Tp-d5E" firstAttribute="trailing" secondItem="Cad-po-eJ5" secondAttribute="trailing" id="hcP-th-iua"/>
+                            <constraint firstAttribute="bottom" secondItem="bHE-ca-Tpv" secondAttribute="bottom" id="mgE-zb-V39"/>
+                            <constraint firstItem="bHE-ca-Tpv" firstAttribute="trailing" secondItem="Cad-po-eJ5" secondAttribute="trailing" id="w2P-l4-BWA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Cad-po-eJ5"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Iss-Z8-EzG"/>
+                    <connections>
+                        <outlet property="closeBarButtonItem" destination="wfa-2F-CXB" id="bez-n2-PJW"/>
+                        <outlet property="collectionView" destination="bHE-ca-Tpv" id="vm1-3g-fCw"/>
+                        <outlet property="refreshButtonItem" destination="AjN-m2-xEZ" id="mTe-HN-YF7"/>
+                        <outlet property="titleButtonItem" destination="OLs-wI-6pl" id="7OB-xM-cKt"/>
+                        <outlet property="toolBar" destination="Bjv-Tp-d5E" id="Hkv-PK-yxO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VYY-qx-ZYA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1008.8" y="216.34182908545728"/>
+        </scene>
+    </scenes>
+</document>

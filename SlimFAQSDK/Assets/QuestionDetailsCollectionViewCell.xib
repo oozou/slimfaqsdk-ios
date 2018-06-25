@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="QuestionDetailsCollectionViewCell" id="gTV-IL-0wX" customClass="QuestionDetailsCollectionViewCell" customModule="SlimFAQ_SDK" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="400"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="400"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lam-Of-1qX">
+                        <rect key="frame" x="15" y="10" width="33.5" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="updated at" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dvC-36-LLX">
+                        <rect key="frame" x="15" y="38.5" width="350" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.0" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WAn-Nh-an4">
+                        <rect key="frame" x="15" y="64.5" width="345" height="325.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="WAn-Nh-an4" secondAttribute="trailing" constant="15" id="119-fj-gZU"/>
+                <constraint firstItem="WAn-Nh-an4" firstAttribute="top" secondItem="dvC-36-LLX" secondAttribute="bottom" priority="999" constant="10" id="L7k-qZ-Yms"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Lam-Of-1qX" secondAttribute="trailing" constant="20" id="TfO-7G-19g"/>
+                <constraint firstItem="WAn-Nh-an4" firstAttribute="top" relation="greaterThanOrEqual" secondItem="ZTg-uK-7eu" secondAttribute="top" constant="64.5" id="dsd-nZ-LIV"/>
+                <constraint firstAttribute="bottom" secondItem="WAn-Nh-an4" secondAttribute="bottom" constant="10" id="eCp-z2-aqH"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="trailing" secondItem="dvC-36-LLX" secondAttribute="trailing" constant="10" id="iEv-su-Rnm"/>
+                <constraint firstItem="Lam-Of-1qX" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="oRh-bj-dna"/>
+                <constraint firstItem="dvC-36-LLX" firstAttribute="leading" secondItem="Lam-Of-1qX" secondAttribute="leading" id="p8o-YL-UEz"/>
+                <constraint firstItem="Lam-Of-1qX" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="pcy-ae-oWh"/>
+                <constraint firstItem="WAn-Nh-an4" firstAttribute="leading" secondItem="dvC-36-LLX" secondAttribute="leading" id="pdC-wc-CqO"/>
+                <constraint firstItem="dvC-36-LLX" firstAttribute="top" secondItem="Lam-Of-1qX" secondAttribute="bottom" constant="8" id="wHB-qX-7Jn"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <connections>
+                <outlet property="titleLabel" destination="Lam-Of-1qX" id="9cr-RI-0H1"/>
+                <outlet property="updatedAtLabel" destination="dvC-36-LLX" id="haK-z1-o6i"/>
+                <outlet property="webViewContainer" destination="WAn-Nh-an4" id="vTR-5S-aIo"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="54"/>
+        </collectionViewCell>
+    </objects>
+</document>

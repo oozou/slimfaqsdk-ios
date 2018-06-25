@@ -7,17 +7,22 @@
 //
 
 import UIKit
+import SlimFAQSDK
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let clientID = "slimwiki"
+        SlimFAQSDK.shared.set(clientID: clientID)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func faqButtonAction(_ sender: Any) {
+        do {
+            try SlimFAQSDK.shared.present(from: self, animated: true, completion: nil)
+        } catch {
+            print("an error occured: \(error.localizedDescription)")
+        }
     }
 
 }

@@ -1,0 +1,6 @@
+framework module SlimFAQSDK {
+  umbrella header "SlimFAQSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
