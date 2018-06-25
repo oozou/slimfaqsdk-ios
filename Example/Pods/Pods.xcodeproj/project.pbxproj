@@ -7,51 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		002ACC627465B557A9A9ECACFFCF5733 /* Storyboard+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C1B14FFDE31D78C9E312E0DF1409A /* Storyboard+Extensions.swift */; };
-		047A895DE00A8083454B5F38391D5A40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		0DDFDF9C4BDC6CF1EA16F21BE0085FC8 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46121F3B91D0F7DB9894CF616648591B /* UIColor+Extensions.swift */; };
-		1CFFBB0A19C946B65D28CC17C26BB833 /* CategoryItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715F0A3FE1260761579C904DD51E44C3 /* CategoryItemCollectionViewCell.swift */; };
-		1EDEDFBD7A105F5EAF8922B112C794B8 /* JSONPathExtensionAddable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238BB0C9532025B89F261DDB0EB60B92 /* JSONPathExtensionAddable.swift */; };
-		1F77EFE06F4BB209E79FBBF78280FCAD /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE8FF01DF7A18D83DBBB1E4E692BC56 /* ApiManager.swift */; };
-		2E867598A25E6C675269950EA15CA904 /* UIBarButtonItem+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D396D6E4BEFB0A3D4028330B9EEE0BC8 /* UIBarButtonItem+Extensions.swift */; };
-		33F624591180BC417595195DAD8DABA3 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2AAE0C4952B86F656BB4521716296C /* UIImage+Extensions.swift */; };
-		35F4D95D3C2F5AE6856EE4519D7C94C7 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87DC63FE07E5B409753033961EE8FD5 /* Bundle+Extensions.swift */; };
+		002ACC627465B557A9A9ECACFFCF5733 /* Storyboard+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34988A49E8E70FE4C7134B4FC0B2A1F9 /* Storyboard+Extensions.swift */; };
+		047A895DE00A8083454B5F38391D5A40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		0DDFDF9C4BDC6CF1EA16F21BE0085FC8 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F04D27B12FDA6632DAFDAFAC09C949 /* UIColor+Extensions.swift */; };
+		18905B8E4A8448409E4CF8D8DDB0258C /* QuestionDetailsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 932ABE04FD20DF9A75B1EE98A686AC94 /* QuestionDetailsCollectionViewCell.xib */; };
+		1CFFBB0A19C946B65D28CC17C26BB833 /* CategoryItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185335C7ECFD0AEA0043C054039C07CC /* CategoryItemCollectionViewCell.swift */; };
+		1EDEDFBD7A105F5EAF8922B112C794B8 /* JSONPathExtensionAddable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4032930DB394E5EE40A6428AF218F8DA /* JSONPathExtensionAddable.swift */; };
+		1F77EFE06F4BB209E79FBBF78280FCAD /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053076C1322B76759523CF30F8DC8EBB /* ApiManager.swift */; };
+		2AB5EABCEF5171DF2406076A9C65BFDA /* LoadingStateCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA3C78C4DDB03A1CB0BCF626EBCE5133 /* LoadingStateCollectionViewCell.xib */; };
+		2E867598A25E6C675269950EA15CA904 /* UIBarButtonItem+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5268E60773477CF7691F368FC54DD4B4 /* UIBarButtonItem+Extensions.swift */; };
+		2ED6FE50F8046C8DDCC0DE54C0A31019 /* slimFAQImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1578EEE859F6E96C96BF9FCA87C5C3B7 /* slimFAQImages.xcassets */; };
+		2FAD45B8A1EB2707B1494A2ABDB78FC4 /* EmptyStateCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E426C114679BD50F41D4A7CE6030A4BD /* EmptyStateCollectionViewCell.xib */; };
+		33F624591180BC417595195DAD8DABA3 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17061F9386A4F9F3B219FF7D390F76ED /* UIImage+Extensions.swift */; };
+		35F4D95D3C2F5AE6856EE4519D7C94C7 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F15717430D9ACB89205768F040D24E /* Bundle+Extensions.swift */; };
 		431255BE3E4D8C31689ED1E283AE3253 /* Pods-SlimFAQSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 041467A566F1F00A968130BFB34CB0FE /* Pods-SlimFAQSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46717DF6C4DC573DD6E8DE8D0605D687 /* ReusableNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8239C6ABBFDFCF5016D1315752F3A6F3 /* ReusableNib.swift */; };
-		5398292A5BEEF0A9682265B511221D50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		542A80D432808E88D7DC15B1B35BEF85 /* CategoryItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02556A8AFC39BF3BF6C800ACC315B4E4 /* CategoryItemViewModel.swift */; };
-		5870A9E77DE52F6500644733CEB8BC22 /* QuestionMeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052E8676C07F4B671ED3DF59FB0BFC8B /* QuestionMeta.swift */; };
-		5C5B580C7EEFA281D26823B12AE67246 /* QuestionItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD2D40F0BF9D9A60E7EEF88C130D49E /* QuestionItemViewModel.swift */; };
-		5CC4E9C804A22C138D505B732175229C /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C0822D2574DBC4B10D2B1A44480706 /* UICollectionView+Extensions.swift */; };
-		61957717589182B3203B31C68A380288 /* QuestionDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5862D8BB63E393A8AB09E180ED9FED /* QuestionDetailsViewModel.swift */; };
-		693A81A3ABB33B81A9F3CBE957A1755B /* SlimFAQSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBD6B7665FB652F43F6709B3F57A566 /* SlimFAQSDK-dummy.m */; };
-		7A085E060ABA01E56902C463E7F85316 /* EmptyStateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A05BFC3FA2DF55EF9F8927000A5D15 /* EmptyStateCollectionViewCell.swift */; };
-		861514491267984C8F50825F398A00FB /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1D4AC4BF987784E9E7A1B2CE99BDD4 /* Question.swift */; };
-		87449760E1DB409C768807BE7989B383 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C43AEADBC6F27839A62CF4A8F7F3C46 /* Category.swift */; };
-		88F74E008014CF7771A012980F5EEB28 /* SlimFAQSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239F304F4757D08E9AF88B1A4E75045C /* SlimFAQSDK.swift */; };
-		8C7EC8D48E0E06BC13EC67E45F8C850D /* SlimFAQContentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479B80D3AA93F5CE1AF6FFE4637E1926 /* SlimFAQContentsViewController.swift */; };
-		9DD9DA651BC56B11446FC442BAD8C805 /* SlimFAQSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 764E822398AEA3406DCEF9EECFF2DCC6 /* SlimFAQSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A180F2A2EC756F7C5EE061103EDF698A /* LoadingStateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC7CD607A82D86C0757463028AE500D /* LoadingStateViewModel.swift */; };
-		A3021C2A07A672A3AD594755E7C024CE /* Alamofire+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6320038C8AB413293C2158DD89E9EC88 /* Alamofire+Extensions.swift */; };
+		46717DF6C4DC573DD6E8DE8D0605D687 /* ReusableNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCA81E971F1C71EBCB74C549D191928 /* ReusableNib.swift */; };
+		542A80D432808E88D7DC15B1B35BEF85 /* CategoryItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A1A0ECA9413AB74AB4F44ED3FF4EA5 /* CategoryItemViewModel.swift */; };
+		5870A9E77DE52F6500644733CEB8BC22 /* QuestionMeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC79B7D43D751E31DF1B429D23ADCD2E /* QuestionMeta.swift */; };
+		5C5B580C7EEFA281D26823B12AE67246 /* QuestionItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFE9AE4D0D346C481372E409E9FEB45 /* QuestionItemViewModel.swift */; };
+		5CC4E9C804A22C138D505B732175229C /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85F50B18215080BD4DCB6B8CA9562D0 /* UICollectionView+Extensions.swift */; };
+		5D5CAA028F02A3C3A8E7B868FD0CFC0F /* LoadingStateCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA3C78C4DDB03A1CB0BCF626EBCE5133 /* LoadingStateCollectionViewCell.xib */; };
+		61957717589182B3203B31C68A380288 /* QuestionDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C787607B1A0C27B14E83A7181596ED3C /* QuestionDetailsViewModel.swift */; };
+		693A81A3ABB33B81A9F3CBE957A1755B /* SlimFAQSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB1AABBDA6B9164212C5F06A93F77AA /* SlimFAQSDK-dummy.m */; };
+		6A680ACC17A151EF9E754995D1C35BB0 /* CategoryItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AC8550EC58FC6F8B289D69158B8DC73 /* CategoryItemCollectionViewCell.xib */; };
+		7A085E060ABA01E56902C463E7F85316 /* EmptyStateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD3361E8B68519F29CD9B20B9F321A3 /* EmptyStateCollectionViewCell.swift */; };
+		8371800B7824CFD4D6DF34D37F442AF9 /* CategoryItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AC8550EC58FC6F8B289D69158B8DC73 /* CategoryItemCollectionViewCell.xib */; };
+		861514491267984C8F50825F398A00FB /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE2E5E74B0EA89EC456DFE1B85C4E37 /* Question.swift */; };
+		87449760E1DB409C768807BE7989B383 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A7A629079503828DBB5443BD0B9C45 /* Category.swift */; };
+		88F74E008014CF7771A012980F5EEB28 /* SlimFAQSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AC199950C27A3F66DB86B38217BF3E /* SlimFAQSDK.swift */; };
+		8C7EC8D48E0E06BC13EC67E45F8C850D /* SlimFAQContentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5EF27AF02E7C4EA9C74FF62FA1E055 /* SlimFAQContentsViewController.swift */; };
+		8F8A1191D80B9EEAF363F53BB73A42C8 /* SlimFAQSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A24C8911EFD80F0F28AEA60C3969F30E /* SlimFAQSDK.bundle */; };
+		9DD9DA651BC56B11446FC442BAD8C805 /* SlimFAQSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2A42290ED00F1FC59E5F8224A3C28C2 /* SlimFAQSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A180F2A2EC756F7C5EE061103EDF698A /* LoadingStateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9059ABC6FBE368DEEBB4E5A9647D0EDB /* LoadingStateViewModel.swift */; };
+		A3021C2A07A672A3AD594755E7C024CE /* Alamofire+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F7B69C4E1EC6AC9DC53BA753F5DAA /* Alamofire+Extensions.swift */; };
 		B2D5F978B137F0DD665682872125E6B1 /* Pods-SlimFAQSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DDC05DCDB589C7CCC46F9B738BA800E /* Pods-SlimFAQSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3D1C6043F877435F955235A418C64CE /* Pods-SlimFAQSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 301C2A83762FB80C74E265C579D46F77 /* Pods-SlimFAQSDK_Tests-dummy.m */; };
-		B7C5858483EA18C8640073CEB75F48AE /* UINavigationController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B96B7AC787B96099510E6AA71BECC9F /* UINavigationController+Extensions.swift */; };
-		BA3C4973E0324069879550DA15AA4949 /* QuestionDetailsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE90A8135400CF6CCB00A86919DFB6A /* QuestionDetailsCollectionViewCell.swift */; };
-		BA451C4A5D05EF3D4827585A7790E796 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		C7C37D95FBD14DAC853DD4BF28D79F01 /* SlimFAQContentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09658B17D85EE98679A744C517729B6B /* SlimFAQContentsViewModel.swift */; };
-		CEA363D00F952B0F6D433CA4520CE4FE /* EmptyStateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD456D5E9E4B92BC1E12D8B36E7CCA4 /* EmptyStateViewModel.swift */; };
-		DCF1383482E90D40E160C085A40FD0EB /* LoadingStateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38D2527E8179195C41E8B4A50174481 /* LoadingStateCollectionViewCell.swift */; };
-		E2F3EF0ADC30D65DF9E42AACA3457E79 /* SlimFAQSDKError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1A5C27B6F9153516466E7BF9AC73BE /* SlimFAQSDKError.swift */; };
-		E3B7FEDEF3F9C4C79265C8D35B7526A7 /* CategoriesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54224F2C472FFE37B64A921561A9078 /* CategoriesList.swift */; };
-		E635BE2B53712259842C0023AC145635 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9792576A67588A0B802DD04CAFF7F0AB /* String+Extensions.swift */; };
-		E7086714951E3F19373113B1FEB2B78D /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C89CD548F463CC572BD092EE262F973 /* Date+Extensions.swift */; };
-		F055B22020E0A45500662421 /* Contents.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F055B21D20E0A37300662421 /* Contents.storyboard */; };
-		F055B22120E0A45500662421 /* CategoryItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F055B21920E0A37300662421 /* CategoryItemCollectionViewCell.xib */; };
-		F055B22220E0A45500662421 /* LoadingStateCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F055B21E20E0A37300662421 /* LoadingStateCollectionViewCell.xib */; };
-		F055B22320E0A45500662421 /* EmptyStateCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F055B21820E0A37300662421 /* EmptyStateCollectionViewCell.xib */; };
-		F055B22420E0A45500662421 /* QuestionDetailsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F055B21A20E0A37300662421 /* QuestionDetailsCollectionViewCell.xib */; };
-		F055B22520E0A45500662421 /* slimFAQImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F055B21C20E0A37300662421 /* slimFAQImages.xcassets */; };
+		B581AC63CF5B0D0AD483D9A6477E27DF /* QuestionDetailsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 932ABE04FD20DF9A75B1EE98A686AC94 /* QuestionDetailsCollectionViewCell.xib */; };
+		B7C5858483EA18C8640073CEB75F48AE /* UINavigationController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A21EFB26A19CC4658D233B3CB562972 /* UINavigationController+Extensions.swift */; };
+		BA3C4973E0324069879550DA15AA4949 /* QuestionDetailsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0920A05ADAB79AB34BA724F7DCDB50B1 /* QuestionDetailsCollectionViewCell.swift */; };
+		BA451C4A5D05EF3D4827585A7790E796 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		BE79618E40AAA0E2E6DDCE2E1FF0A68B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		C7C37D95FBD14DAC853DD4BF28D79F01 /* SlimFAQContentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CAA2B635EFA94DCF566EF8A4D53E3D /* SlimFAQContentsViewModel.swift */; };
+		CEA363D00F952B0F6D433CA4520CE4FE /* EmptyStateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3472551C6D03516D4F75345EBF5FD826 /* EmptyStateViewModel.swift */; };
+		CECC9D85291E393006BFEC7BC4F143A8 /* EmptyStateCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E426C114679BD50F41D4A7CE6030A4BD /* EmptyStateCollectionViewCell.xib */; };
+		D03ACA53A893BCFAEFFEC1D00D83D75E /* Contents.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4B7C447E1F6459FD691B30873A6D53E /* Contents.storyboard */; };
+		D55EA7EDDB100018A608DE6EB5FA4375 /* slimFAQImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1578EEE859F6E96C96BF9FCA87C5C3B7 /* slimFAQImages.xcassets */; };
+		DCF1383482E90D40E160C085A40FD0EB /* LoadingStateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB222231C5A6D093EF6596636B487B5 /* LoadingStateCollectionViewCell.swift */; };
+		E2F3EF0ADC30D65DF9E42AACA3457E79 /* SlimFAQSDKError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F054D8E37C90AA10E89C71909FFB16CE /* SlimFAQSDKError.swift */; };
+		E3B7FEDEF3F9C4C79265C8D35B7526A7 /* CategoriesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9062701368FA6B1096C7253079F5B49 /* CategoriesList.swift */; };
+		E635BE2B53712259842C0023AC145635 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4DAE04F7A6FFAE264FBAEA7969FA8E /* String+Extensions.swift */; };
+		E7086714951E3F19373113B1FEB2B78D /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4470216D26B7157DD8BC3ED722D68232 /* Date+Extensions.swift */; };
+		ED1C5218DFC90C03BB5D4DE93A3135E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
 		F32628459E895398A51C1761D7534BE7 /* Pods-SlimFAQSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B43026D76C0A1D89FFB666E09719914B /* Pods-SlimFAQSDK_Example-dummy.m */; };
+		FA5866D9F62D635F6EDA1D933F29174C /* Contents.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4B7C447E1F6459FD691B30873A6D53E /* Contents.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,95 +77,106 @@
 			remoteGlobalIDString = A1002E542C035F3ED3F603BB5D50D9EF;
 			remoteInfo = SlimFAQSDK;
 		};
+		3F798E9F46FB3A844902A06DC3680A87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A5DBC0207E68B49FC27B7270D349839;
+			remoteInfo = "SlimFAQSDK-SlimFAQSDK";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02556A8AFC39BF3BF6C800ACC315B4E4 /* CategoryItemViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CategoryItemViewModel.swift; sourceTree = "<group>"; };
 		041467A566F1F00A968130BFB34CB0FE /* Pods-SlimFAQSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SlimFAQSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		052E8676C07F4B671ED3DF59FB0BFC8B /* QuestionMeta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QuestionMeta.swift; sourceTree = "<group>"; };
-		06A05BFC3FA2DF55EF9F8927000A5D15 /* EmptyStateCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmptyStateCollectionViewCell.swift; sourceTree = "<group>"; };
-		09658B17D85EE98679A744C517729B6B /* SlimFAQContentsViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SlimFAQContentsViewModel.swift; path = SlimFAQSDK/Classes/SlimFAQContentsViewModel.swift; sourceTree = "<group>"; };
+		053076C1322B76759523CF30F8DC8EBB /* ApiManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		0920A05ADAB79AB34BA724F7DCDB50B1 /* QuestionDetailsCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QuestionDetailsCollectionViewCell.swift; sourceTree = "<group>"; };
 		0AD2517FE0E19AEDBF745447FEF02013 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1578EEE859F6E96C96BF9FCA87C5C3B7 /* slimFAQImages.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = slimFAQImages.xcassets; path = SlimFAQSDK/Assets/slimFAQImages.xcassets; sourceTree = "<group>"; };
+		17061F9386A4F9F3B219FF7D390F76ED /* UIImage+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		185335C7ECFD0AEA0043C054039C07CC /* CategoryItemCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CategoryItemCollectionViewCell.swift; sourceTree = "<group>"; };
 		186E1E16F5815CE5E77BED3BB54E0952 /* Pods-SlimFAQSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SlimFAQSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1A6401A4E0E116D3A29643130F5C6879 /* Pods-SlimFAQSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SlimFAQSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1B79B3B5DB25150EBFE3D875BD68B8EB /* SlimFAQSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SlimFAQSDK.xcconfig; sourceTree = "<group>"; };
 		1DDC05DCDB589C7CCC46F9B738BA800E /* Pods-SlimFAQSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SlimFAQSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
-		1EB134FFE6885E879505E332163F10BA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		238BB0C9532025B89F261DDB0EB60B92 /* JSONPathExtensionAddable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JSONPathExtensionAddable.swift; sourceTree = "<group>"; };
-		239F304F4757D08E9AF88B1A4E75045C /* SlimFAQSDK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SlimFAQSDK.swift; path = SlimFAQSDK/Classes/SlimFAQSDK.swift; sourceTree = "<group>"; };
-		2AD2D40F0BF9D9A60E7EEF88C130D49E /* QuestionItemViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QuestionItemViewModel.swift; sourceTree = "<group>"; };
-		2AE8FF01DF7A18D83DBBB1E4E692BC56 /* ApiManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
-		2DBD6B7665FB652F43F6709B3F57A566 /* SlimFAQSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SlimFAQSDK-dummy.m"; sourceTree = "<group>"; };
-		2E1A5C27B6F9153516466E7BF9AC73BE /* SlimFAQSDKError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SlimFAQSDKError.swift; sourceTree = "<group>"; };
-		2FD456D5E9E4B92BC1E12D8B36E7CCA4 /* EmptyStateViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmptyStateViewModel.swift; sourceTree = "<group>"; };
+		1F8A0D884C3475C5B2167879C88291C4 /* ResourceBundle-SlimFAQSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SlimFAQSDK-Info.plist"; sourceTree = "<group>"; };
+		1FB222231C5A6D093EF6596636B487B5 /* LoadingStateCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoadingStateCollectionViewCell.swift; sourceTree = "<group>"; };
+		2C5EF27AF02E7C4EA9C74FF62FA1E055 /* SlimFAQContentsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SlimFAQContentsViewController.swift; path = SlimFAQSDK/Classes/SlimFAQContentsViewController.swift; sourceTree = "<group>"; };
 		301C2A83762FB80C74E265C579D46F77 /* Pods-SlimFAQSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SlimFAQSDK_Tests-dummy.m"; sourceTree = "<group>"; };
-		340CD19A8B2805374258C221E091AE57 /* SlimFAQSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SlimFAQSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B9C1B14FFDE31D78C9E312E0DF1409A /* Storyboard+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Storyboard+Extensions.swift"; sourceTree = "<group>"; };
-		46121F3B91D0F7DB9894CF616648591B /* UIColor+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
-		479B80D3AA93F5CE1AF6FFE4637E1926 /* SlimFAQContentsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SlimFAQContentsViewController.swift; path = SlimFAQSDK/Classes/SlimFAQContentsViewController.swift; sourceTree = "<group>"; };
-		487CB24A432905570B2EACCB6C97A6BA /* Pods_SlimFAQSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SlimFAQSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B96B7AC787B96099510E6AA71BECC9F /* UINavigationController+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extensions.swift"; sourceTree = "<group>"; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5FE90A8135400CF6CCB00A86919DFB6A /* QuestionDetailsCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QuestionDetailsCollectionViewCell.swift; sourceTree = "<group>"; };
-		6320038C8AB413293C2158DD89E9EC88 /* Alamofire+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Alamofire+Extensions.swift"; sourceTree = "<group>"; };
+		32F15717430D9ACB89205768F040D24E /* Bundle+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
+		3472551C6D03516D4F75345EBF5FD826 /* EmptyStateViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmptyStateViewModel.swift; sourceTree = "<group>"; };
+		34988A49E8E70FE4C7134B4FC0B2A1F9 /* Storyboard+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Storyboard+Extensions.swift"; sourceTree = "<group>"; };
+		3DCA81E971F1C71EBCB74C549D191928 /* ReusableNib.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReusableNib.swift; sourceTree = "<group>"; };
+		4032930DB394E5EE40A6428AF218F8DA /* JSONPathExtensionAddable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JSONPathExtensionAddable.swift; sourceTree = "<group>"; };
+		4470216D26B7157DD8BC3ED722D68232 /* Date+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		5268E60773477CF7691F368FC54DD4B4 /* UIBarButtonItem+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extensions.swift"; sourceTree = "<group>"; };
+		64A1A0ECA9413AB74AB4F44ED3FF4EA5 /* CategoryItemViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CategoryItemViewModel.swift; sourceTree = "<group>"; };
+		65587962B82EB98D8F5B21698469435D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		686F333BE75A280BED38C531699121DC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		68FBBC0EC7E1BEF7BEFC58AA591E5B01 /* Pods-SlimFAQSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SlimFAQSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6A21EFB26A19CC4658D233B3CB562972 /* UINavigationController+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extensions.swift"; sourceTree = "<group>"; };
 		6A49DEF41BB6F86143DE5C6F8976964E /* Pods-SlimFAQSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SlimFAQSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		715F0A3FE1260761579C904DD51E44C3 /* CategoryItemCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CategoryItemCollectionViewCell.swift; sourceTree = "<group>"; };
-		764E822398AEA3406DCEF9EECFF2DCC6 /* SlimFAQSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlimFAQSDK-umbrella.h"; sourceTree = "<group>"; };
+		6AC8550EC58FC6F8B289D69158B8DC73 /* CategoryItemCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CategoryItemCollectionViewCell.xib; path = SlimFAQSDK/Assets/CategoryItemCollectionViewCell.xib; sourceTree = "<group>"; };
 		7B737566F41010DB9CBDC66714FD03C3 /* Pods-SlimFAQSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SlimFAQSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		7C43AEADBC6F27839A62CF4A8F7F3C46 /* Category.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		7BD3361E8B68519F29CD9B20B9F321A3 /* EmptyStateCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmptyStateCollectionViewCell.swift; sourceTree = "<group>"; };
 		7C570DFD7534AB227DDEEDD5B200ECD7 /* Pods-SlimFAQSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SlimFAQSDK_Tests.modulemap"; sourceTree = "<group>"; };
 		7F1AC5FD1CD42BC8D0941D071726DB2A /* Pods-SlimFAQSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SlimFAQSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		8239C6ABBFDFCF5016D1315752F3A6F3 /* ReusableNib.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReusableNib.swift; sourceTree = "<group>"; };
+		87F04D27B12FDA6632DAFDAFAC09C949 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		890F1A63B6CAA9C4F3F2616BCC5B93D7 /* Pods-SlimFAQSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SlimFAQSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8A252C07346203583CECBD7ABCC3EFAE /* SlimFAQSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SlimFAQSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		8C89CD548F463CC572BD092EE262F973 /* Date+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
-		8E2AAE0C4952B86F656BB4521716296C /* UIImage+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9792576A67588A0B802DD04CAFF7F0AB /* String+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
-		9BDB3794F594EE261F63D89B36589A21 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9D1D4AC4BF987784E9E7A1B2CE99BDD4 /* Question.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		8CB1AABBDA6B9164212C5F06A93F77AA /* SlimFAQSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SlimFAQSDK-dummy.m"; sourceTree = "<group>"; };
+		8E4DAE04F7A6FFAE264FBAEA7969FA8E /* String+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		9059ABC6FBE368DEEBB4E5A9647D0EDB /* LoadingStateViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoadingStateViewModel.swift; sourceTree = "<group>"; };
+		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		91A7A629079503828DBB5443BD0B9C45 /* Category.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		932ABE04FD20DF9A75B1EE98A686AC94 /* QuestionDetailsCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = QuestionDetailsCollectionViewCell.xib; path = SlimFAQSDK/Assets/QuestionDetailsCollectionViewCell.xib; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FB5CD67D5D5A800DDDB58EBF3C53ADC /* Pods-SlimFAQSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SlimFAQSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A18F7B69C4E1EC6AC9DC53BA753F5DAA /* Alamofire+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Alamofire+Extensions.swift"; sourceTree = "<group>"; };
+		A24C8911EFD80F0F28AEA60C3969F30E /* SlimFAQSDK.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SlimFAQSDK.bundle; path = "SlimFAQSDK-SlimFAQSDK.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4B7C447E1F6459FD691B30873A6D53E /* Contents.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Contents.storyboard; path = SlimFAQSDK/Assets/Contents.storyboard; sourceTree = "<group>"; };
 		A7A16A8485405FA614DB08A3504201E4 /* Pods-SlimFAQSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SlimFAQSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A8D8C1A2536CC9FA7C8AD966EDEAA077 /* SlimFAQSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SlimFAQSDK.xcconfig; sourceTree = "<group>"; };
-		B38D2527E8179195C41E8B4A50174481 /* LoadingStateCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoadingStateCollectionViewCell.swift; sourceTree = "<group>"; };
+		A85F50B18215080BD4DCB6B8CA9562D0 /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
+		B0AC199950C27A3F66DB86B38217BF3E /* SlimFAQSDK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SlimFAQSDK.swift; path = SlimFAQSDK/Classes/SlimFAQSDK.swift; sourceTree = "<group>"; };
 		B3EAC07866AC8AF61DAA1C66CE92D449 /* Pods-SlimFAQSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SlimFAQSDK_Example.modulemap"; sourceTree = "<group>"; };
 		B43026D76C0A1D89FFB666E09719914B /* Pods-SlimFAQSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SlimFAQSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		B4CAA2B635EFA94DCF566EF8A4D53E3D /* SlimFAQContentsViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SlimFAQContentsViewModel.swift; path = SlimFAQSDK/Classes/SlimFAQContentsViewModel.swift; sourceTree = "<group>"; };
+		B99A5B1854191027FA9B0EC5C9097B3A /* SlimFAQSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SlimFAQSDK.framework; path = SlimFAQSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB0FFE10FFBF998C8542720A97702497 /* Pods-SlimFAQSDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SlimFAQSDK_Tests-resources.sh"; sourceTree = "<group>"; };
-		C54224F2C472FFE37B64A921561A9078 /* CategoriesList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CategoriesList.swift; sourceTree = "<group>"; };
-		CC025A4B9D1DDD93E65F35B71EC5CDAB /* Pods_SlimFAQSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SlimFAQSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D396D6E4BEFB0A3D4028330B9EEE0BC8 /* UIBarButtonItem+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extensions.swift"; sourceTree = "<group>"; };
-		D87DC63FE07E5B409753033961EE8FD5 /* Bundle+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
+		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C2989C672C6BF418CD62363392950540 /* Pods_SlimFAQSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SlimFAQSDK_Tests.framework; path = "Pods-SlimFAQSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C787607B1A0C27B14E83A7181596ED3C /* QuestionDetailsViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QuestionDetailsViewModel.swift; sourceTree = "<group>"; };
+		C9062701368FA6B1096C7253079F5B49 /* CategoriesList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CategoriesList.swift; sourceTree = "<group>"; };
+		CFE2E5E74B0EA89EC456DFE1B85C4E37 /* Question.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		DDFE9AE4D0D346C481372E409E9FEB45 /* QuestionItemViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QuestionItemViewModel.swift; sourceTree = "<group>"; };
 		DFB23F6C8F197281306EEED639ED0C68 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DFC7CD607A82D86C0757463028AE500D /* LoadingStateViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoadingStateViewModel.swift; sourceTree = "<group>"; };
+		E426C114679BD50F41D4A7CE6030A4BD /* EmptyStateCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = EmptyStateCollectionViewCell.xib; path = SlimFAQSDK/Assets/EmptyStateCollectionViewCell.xib; sourceTree = "<group>"; };
 		E6AB81CCD06F6C36E34356995D9645EB /* Pods-SlimFAQSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SlimFAQSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E71BB6C3A78D13DA3095BE23383AC74F /* Pods_SlimFAQSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SlimFAQSDK_Example.framework; path = "Pods-SlimFAQSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC085DD52CAF74C90CB53CECE4FC4512 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F03E3CBD766EA83297049B6A50813F04 /* Pods-SlimFAQSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SlimFAQSDK_Example-resources.sh"; sourceTree = "<group>"; };
-		F055B21820E0A37300662421 /* EmptyStateCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyStateCollectionViewCell.xib; sourceTree = "<group>"; };
-		F055B21920E0A37300662421 /* CategoryItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryItemCollectionViewCell.xib; sourceTree = "<group>"; };
-		F055B21A20E0A37300662421 /* QuestionDetailsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestionDetailsCollectionViewCell.xib; sourceTree = "<group>"; };
-		F055B21C20E0A37300662421 /* slimFAQImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = slimFAQImages.xcassets; sourceTree = "<group>"; };
-		F055B21D20E0A37300662421 /* Contents.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Contents.storyboard; sourceTree = "<group>"; };
-		F055B21E20E0A37300662421 /* LoadingStateCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingStateCollectionViewCell.xib; sourceTree = "<group>"; };
-		F41C3D1972B91C13358BF9D15E181964 /* SlimFAQSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlimFAQSDK-prefix.pch"; sourceTree = "<group>"; };
-		F9C0822D2574DBC4B10D2B1A44480706 /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
-		FA76B882F80782294FB8A613ED9625C0 /* SlimFAQSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SlimFAQSDK.modulemap; sourceTree = "<group>"; };
-		FF5862D8BB63E393A8AB09E180ED9FED /* QuestionDetailsViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QuestionDetailsViewModel.swift; sourceTree = "<group>"; };
-		FFA8AB33D8FF7D9B91F0DD22EAF74692 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F054D8E37C90AA10E89C71909FFB16CE /* SlimFAQSDKError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SlimFAQSDKError.swift; sourceTree = "<group>"; };
+		F07659EC5DEB09C7549E415BF1AF6BDE /* SlimFAQSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlimFAQSDK-prefix.pch"; sourceTree = "<group>"; };
+		F2A42290ED00F1FC59E5F8224A3C28C2 /* SlimFAQSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlimFAQSDK-umbrella.h"; sourceTree = "<group>"; };
+		F72C5425B70C608ADBD432725A571D03 /* SlimFAQSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SlimFAQSDK.modulemap; sourceTree = "<group>"; };
+		FA3C78C4DDB03A1CB0BCF626EBCE5133 /* LoadingStateCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LoadingStateCollectionViewCell.xib; path = SlimFAQSDK/Assets/LoadingStateCollectionViewCell.xib; sourceTree = "<group>"; };
+		FC79B7D43D751E31DF1B429D23ADCD2E /* QuestionMeta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QuestionMeta.swift; sourceTree = "<group>"; };
+		FCB89FC9F55C1E7336E874DF2AD06286 /* SlimFAQSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SlimFAQSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		504E6EA2F22C671FD8BC3FC61E24CBF9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5398292A5BEEF0A9682265B511221D50 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8A17B58BD3BD0A92808CD237C3E7EEC2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BA451C4A5D05EF3D4827585A7790E796 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5B806983B9A50D718A684D1A4EDE11A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1C5218DFC90C03BB5D4DE93A3135E7 /* Foundation.framework in Frameworks */,
+				BE79618E40AAA0E2E6DDCE2E1FF0A68B /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,21 +188,59 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E0683911A50B2369F93A83EA2AAAB6DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2D471A8FFF6081A73684C6476485DBCF /* Support Files */ = {
+		053D21570744D9E256FBFCC6747CB01A /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				9BDB3794F594EE261F63D89B36589A21 /* Info.plist */,
-				FA76B882F80782294FB8A613ED9625C0 /* SlimFAQSDK.modulemap */,
-				A8D8C1A2536CC9FA7C8AD966EDEAA077 /* SlimFAQSDK.xcconfig */,
-				2DBD6B7665FB652F43F6709B3F57A566 /* SlimFAQSDK-dummy.m */,
-				F41C3D1972B91C13358BF9D15E181964 /* SlimFAQSDK-prefix.pch */,
-				764E822398AEA3406DCEF9EECFF2DCC6 /* SlimFAQSDK-umbrella.h */,
+				65587962B82EB98D8F5B21698469435D /* LICENSE */,
+				686F333BE75A280BED38C531699121DC /* README.md */,
+				FCB89FC9F55C1E7336E874DF2AD06286 /* SlimFAQSDK.podspec */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SlimFAQSDK";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		056191E9D3DE5581DC91AA04426FCC16 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				64A1A0ECA9413AB74AB4F44ED3FF4EA5 /* CategoryItemViewModel.swift */,
+				3472551C6D03516D4F75345EBF5FD826 /* EmptyStateViewModel.swift */,
+				9059ABC6FBE368DEEBB4E5A9647D0EDB /* LoadingStateViewModel.swift */,
+				C787607B1A0C27B14E83A7181596ED3C /* QuestionDetailsViewModel.swift */,
+				DDFE9AE4D0D346C481372E409E9FEB45 /* QuestionItemViewModel.swift */,
+			);
+			name = ViewModels;
+			path = SlimFAQSDK/Classes/ViewModels;
+			sourceTree = "<group>";
+		};
+		05C0A92BDFF48FAA2E03AE6CB6915E00 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C9062701368FA6B1096C7253079F5B49 /* CategoriesList.swift */,
+				91A7A629079503828DBB5443BD0B9C45 /* Category.swift */,
+				4032930DB394E5EE40A6428AF218F8DA /* JSONPathExtensionAddable.swift */,
+				CFE2E5E74B0EA89EC456DFE1B85C4E37 /* Question.swift */,
+				FC79B7D43D751E31DF1B429D23ADCD2E /* QuestionMeta.swift */,
+			);
+			name = Models;
+			path = SlimFAQSDK/Classes/Models;
+			sourceTree = "<group>";
+		};
+		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				908E902E026C5C22904CF9014A5604AD /* Foundation.framework */,
+				BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		387CAFBF44C7D21C8255700C93BCDAF1 /* Pods-SlimFAQSDK_Tests */ = {
@@ -204,52 +261,23 @@
 			path = "Target Support Files/Pods-SlimFAQSDK_Tests";
 			sourceTree = "<group>";
 		};
-		4816BE324FC713D5AA8B43E7743BBE9B /* Pod */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1EB134FFE6885E879505E332163F10BA /* LICENSE */,
-				FFA8AB33D8FF7D9B91F0DD22EAF74692 /* README.md */,
-				8A252C07346203583CECBD7ABCC3EFAE /* SlimFAQSDK.podspec */,
+				10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */,
 			);
-			name = Pod;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4A91026B065B5DD6F89C172BDF131911 /* Extensions */ = {
+		64AC5C72E99D58FE85D808D3D13AF9AA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D87DC63FE07E5B409753033961EE8FD5 /* Bundle+Extensions.swift */,
-				8C89CD548F463CC572BD092EE262F973 /* Date+Extensions.swift */,
-				8239C6ABBFDFCF5016D1315752F3A6F3 /* ReusableNib.swift */,
-				3B9C1B14FFDE31D78C9E312E0DF1409A /* Storyboard+Extensions.swift */,
-				9792576A67588A0B802DD04CAFF7F0AB /* String+Extensions.swift */,
-				D396D6E4BEFB0A3D4028330B9EEE0BC8 /* UIBarButtonItem+Extensions.swift */,
-				F9C0822D2574DBC4B10D2B1A44480706 /* UICollectionView+Extensions.swift */,
-				46121F3B91D0F7DB9894CF616648591B /* UIColor+Extensions.swift */,
-				8E2AAE0C4952B86F656BB4521716296C /* UIImage+Extensions.swift */,
-				4B96B7AC787B96099510E6AA71BECC9F /* UINavigationController+Extensions.swift */,
+				E71BB6C3A78D13DA3095BE23383AC74F /* Pods_SlimFAQSDK_Example.framework */,
+				C2989C672C6BF418CD62363392950540 /* Pods_SlimFAQSDK_Tests.framework */,
+				A24C8911EFD80F0F28AEA60C3969F30E /* SlimFAQSDK.bundle */,
+				B99A5B1854191027FA9B0EC5C9097B3A /* SlimFAQSDK.framework */,
 			);
-			name = Extensions;
-			path = SlimFAQSDK/Classes/Extensions;
-			sourceTree = "<group>";
-		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		638949A561A6022FA932C959BA2D8821 /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				715F0A3FE1260761579C904DD51E44C3 /* CategoryItemCollectionViewCell.swift */,
-				06A05BFC3FA2DF55EF9F8927000A5D15 /* EmptyStateCollectionViewCell.swift */,
-				B38D2527E8179195C41E8B4A50174481 /* LoadingStateCollectionViewCell.swift */,
-				5FE90A8135400CF6CCB00A86919DFB6A /* QuestionDetailsCollectionViewCell.swift */,
-			);
-			name = Cells;
-			path = SlimFAQSDK/Classes/Cells;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		6ED48DAE0DE7CF10D7CBCB279F89C9F3 /* Pods-SlimFAQSDK_Example */ = {
@@ -270,33 +298,49 @@
 			path = "Target Support Files/Pods-SlimFAQSDK_Example";
 			sourceTree = "<group>";
 		};
+		7610D05991B8A25128F7F8DD37D26D90 /* SlimFAQSDK */ = {
+			isa = PBXGroup;
+			children = (
+				2C5EF27AF02E7C4EA9C74FF62FA1E055 /* SlimFAQContentsViewController.swift */,
+				B4CAA2B635EFA94DCF566EF8A4D53E3D /* SlimFAQContentsViewModel.swift */,
+				B0AC199950C27A3F66DB86B38217BF3E /* SlimFAQSDK.swift */,
+				DAA3C8CF764A153D93DAF1E2C6028CE8 /* Cells */,
+				AB55DE1360E61D6550787C05B6A36E53 /* Extensions */,
+				05C0A92BDFF48FAA2E03AE6CB6915E00 /* Models */,
+				C230E41AB7034A254A0C44450509F278 /* Network */,
+				053D21570744D9E256FBFCC6747CB01A /* Pod */,
+				F7953177838D6FDE85863FDB36600C98 /* Resources */,
+				85A08CF2BCB07836569B17C1CBD4D157 /* Support Files */,
+				056191E9D3DE5581DC91AA04426FCC16 /* ViewModels */,
+			);
+			name = SlimFAQSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				8A8604F9039F03D741E7AEED59CEA70E /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				7DB3F5664B6386041869AAE8640532EA /* Products */,
+				AFD412F4317C84E470DB9F8E4D932773 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				64AC5C72E99D58FE85D808D3D13AF9AA /* Products */,
 				96780011234B14E178E73DF13BB2DC49 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7DB3F5664B6386041869AAE8640532EA /* Products */ = {
+		85A08CF2BCB07836569B17C1CBD4D157 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CC025A4B9D1DDD93E65F35B71EC5CDAB /* Pods_SlimFAQSDK_Example.framework */,
-				487CB24A432905570B2EACCB6C97A6BA /* Pods_SlimFAQSDK_Tests.framework */,
-				340CD19A8B2805374258C221E091AE57 /* SlimFAQSDK.framework */,
+				EC085DD52CAF74C90CB53CECE4FC4512 /* Info.plist */,
+				1F8A0D884C3475C5B2167879C88291C4 /* ResourceBundle-SlimFAQSDK-Info.plist */,
+				F72C5425B70C608ADBD432725A571D03 /* SlimFAQSDK.modulemap */,
+				1B79B3B5DB25150EBFE3D875BD68B8EB /* SlimFAQSDK.xcconfig */,
+				8CB1AABBDA6B9164212C5F06A93F77AA /* SlimFAQSDK-dummy.m */,
+				F07659EC5DEB09C7549E415BF1AF6BDE /* SlimFAQSDK-prefix.pch */,
+				F2A42290ED00F1FC59E5F8224A3C28C2 /* SlimFAQSDK-umbrella.h */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		8A8604F9039F03D741E7AEED59CEA70E /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D3BC58FE8C98E3BDCEF8AC39510D9FE5 /* SlimFAQSDK */,
-			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SlimFAQSDK";
 			sourceTree = "<group>";
 		};
 		96780011234B14E178E73DF13BB2DC49 /* Targets Support Files */ = {
@@ -308,82 +352,66 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		AB55DE1360E61D6550787C05B6A36E53 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+				32F15717430D9ACB89205768F040D24E /* Bundle+Extensions.swift */,
+				4470216D26B7157DD8BC3ED722D68232 /* Date+Extensions.swift */,
+				3DCA81E971F1C71EBCB74C549D191928 /* ReusableNib.swift */,
+				34988A49E8E70FE4C7134B4FC0B2A1F9 /* Storyboard+Extensions.swift */,
+				8E4DAE04F7A6FFAE264FBAEA7969FA8E /* String+Extensions.swift */,
+				5268E60773477CF7691F368FC54DD4B4 /* UIBarButtonItem+Extensions.swift */,
+				A85F50B18215080BD4DCB6B8CA9562D0 /* UICollectionView+Extensions.swift */,
+				87F04D27B12FDA6632DAFDAFAC09C949 /* UIColor+Extensions.swift */,
+				17061F9386A4F9F3B219FF7D390F76ED /* UIImage+Extensions.swift */,
+				6A21EFB26A19CC4658D233B3CB562972 /* UINavigationController+Extensions.swift */,
 			);
-			name = Frameworks;
+			name = Extensions;
+			path = SlimFAQSDK/Classes/Extensions;
 			sourceTree = "<group>";
 		};
-		D2A480C86861D99EAE52E02E01BC2C54 /* Models */ = {
+		AFD412F4317C84E470DB9F8E4D932773 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C54224F2C472FFE37B64A921561A9078 /* CategoriesList.swift */,
-				7C43AEADBC6F27839A62CF4A8F7F3C46 /* Category.swift */,
-				238BB0C9532025B89F261DDB0EB60B92 /* JSONPathExtensionAddable.swift */,
-				9D1D4AC4BF987784E9E7A1B2CE99BDD4 /* Question.swift */,
-				052E8676C07F4B671ED3DF59FB0BFC8B /* QuestionMeta.swift */,
+				7610D05991B8A25128F7F8DD37D26D90 /* SlimFAQSDK */,
 			);
-			name = Models;
-			path = SlimFAQSDK/Classes/Models;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		D3BC58FE8C98E3BDCEF8AC39510D9FE5 /* SlimFAQSDK */ = {
+		C230E41AB7034A254A0C44450509F278 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				479B80D3AA93F5CE1AF6FFE4637E1926 /* SlimFAQContentsViewController.swift */,
-				09658B17D85EE98679A744C517729B6B /* SlimFAQContentsViewModel.swift */,
-				239F304F4757D08E9AF88B1A4E75045C /* SlimFAQSDK.swift */,
-				638949A561A6022FA932C959BA2D8821 /* Cells */,
-				4A91026B065B5DD6F89C172BDF131911 /* Extensions */,
-				D2A480C86861D99EAE52E02E01BC2C54 /* Models */,
-				D5F18F9423BC1443428D5D761D1DB657 /* Network */,
-				4816BE324FC713D5AA8B43E7743BBE9B /* Pod */,
-				F055B21720E0A37300662421 /* Assets */,
-				2D471A8FFF6081A73684C6476485DBCF /* Support Files */,
-				E98B4138A1A30E5F94D47C7CF181BFD6 /* ViewModels */,
-			);
-			name = SlimFAQSDK;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		D5F18F9423BC1443428D5D761D1DB657 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				6320038C8AB413293C2158DD89E9EC88 /* Alamofire+Extensions.swift */,
-				2AE8FF01DF7A18D83DBBB1E4E692BC56 /* ApiManager.swift */,
-				2E1A5C27B6F9153516466E7BF9AC73BE /* SlimFAQSDKError.swift */,
+				A18F7B69C4E1EC6AC9DC53BA753F5DAA /* Alamofire+Extensions.swift */,
+				053076C1322B76759523CF30F8DC8EBB /* ApiManager.swift */,
+				F054D8E37C90AA10E89C71909FFB16CE /* SlimFAQSDKError.swift */,
 			);
 			name = Network;
 			path = SlimFAQSDK/Classes/Network;
 			sourceTree = "<group>";
 		};
-		E98B4138A1A30E5F94D47C7CF181BFD6 /* ViewModels */ = {
+		DAA3C8CF764A153D93DAF1E2C6028CE8 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				02556A8AFC39BF3BF6C800ACC315B4E4 /* CategoryItemViewModel.swift */,
-				2FD456D5E9E4B92BC1E12D8B36E7CCA4 /* EmptyStateViewModel.swift */,
-				DFC7CD607A82D86C0757463028AE500D /* LoadingStateViewModel.swift */,
-				FF5862D8BB63E393A8AB09E180ED9FED /* QuestionDetailsViewModel.swift */,
-				2AD2D40F0BF9D9A60E7EEF88C130D49E /* QuestionItemViewModel.swift */,
+				185335C7ECFD0AEA0043C054039C07CC /* CategoryItemCollectionViewCell.swift */,
+				7BD3361E8B68519F29CD9B20B9F321A3 /* EmptyStateCollectionViewCell.swift */,
+				1FB222231C5A6D093EF6596636B487B5 /* LoadingStateCollectionViewCell.swift */,
+				0920A05ADAB79AB34BA724F7DCDB50B1 /* QuestionDetailsCollectionViewCell.swift */,
 			);
-			name = ViewModels;
-			path = SlimFAQSDK/Classes/ViewModels;
+			name = Cells;
+			path = SlimFAQSDK/Classes/Cells;
 			sourceTree = "<group>";
 		};
-		F055B21720E0A37300662421 /* Assets */ = {
+		F7953177838D6FDE85863FDB36600C98 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F055B21D20E0A37300662421 /* Contents.storyboard */,
-				F055B21920E0A37300662421 /* CategoryItemCollectionViewCell.xib */,
-				F055B21E20E0A37300662421 /* LoadingStateCollectionViewCell.xib */,
-				F055B21820E0A37300662421 /* EmptyStateCollectionViewCell.xib */,
-				F055B21A20E0A37300662421 /* QuestionDetailsCollectionViewCell.xib */,
-				F055B21C20E0A37300662421 /* slimFAQImages.xcassets */,
+				6AC8550EC58FC6F8B289D69158B8DC73 /* CategoryItemCollectionViewCell.xib */,
+				A4B7C447E1F6459FD691B30873A6D53E /* Contents.storyboard */,
+				E426C114679BD50F41D4A7CE6030A4BD /* EmptyStateCollectionViewCell.xib */,
+				FA3C78C4DDB03A1CB0BCF626EBCE5133 /* LoadingStateCollectionViewCell.xib */,
+				932ABE04FD20DF9A75B1EE98A686AC94 /* QuestionDetailsCollectionViewCell.xib */,
+				1578EEE859F6E96C96BF9FCA87C5C3B7 /* slimFAQImages.xcassets */,
 			);
-			name = Assets;
-			path = SlimFAQSDK/Assets;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -416,6 +444,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		0A5DBC0207E68B49FC27B7270D349839 /* SlimFAQSDK-SlimFAQSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D74F9F3DA092D010B1237FCCC2AC10F1 /* Build configuration list for PBXNativeTarget "SlimFAQSDK-SlimFAQSDK" */;
+			buildPhases = (
+				1DB00499ADE5A34938B36F6E56A9A9E9 /* Sources */,
+				E0683911A50B2369F93A83EA2AAAB6DC /* Frameworks */,
+				CCE9A7B8E9BB064E867A2A372C09656C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SlimFAQSDK-SlimFAQSDK";
+			productName = "SlimFAQSDK-SlimFAQSDK";
+			productReference = A24C8911EFD80F0F28AEA60C3969F30E /* SlimFAQSDK.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		89D55A34487CDA6BF573CA2AADAF0427 /* Pods-SlimFAQSDK_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDFBC03D18CB190A0C56E35FE6A621E6 /* Build configuration list for PBXNativeTarget "Pods-SlimFAQSDK_Tests" */;
@@ -431,7 +476,7 @@
 			);
 			name = "Pods-SlimFAQSDK_Tests";
 			productName = "Pods-SlimFAQSDK_Tests";
-			productReference = 487CB24A432905570B2EACCB6C97A6BA /* Pods_SlimFAQSDK_Tests.framework */;
+			productReference = C2989C672C6BF418CD62363392950540 /* Pods_SlimFAQSDK_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A1002E542C035F3ED3F603BB5D50D9EF /* SlimFAQSDK */ = {
@@ -439,17 +484,18 @@
 			buildConfigurationList = E3D224CF5CFAF27F0D18DC204BD4990D /* Build configuration list for PBXNativeTarget "SlimFAQSDK" */;
 			buildPhases = (
 				86D0C3215C0475EEB48C2E1C0B3B918D /* Sources */,
-				504E6EA2F22C671FD8BC3FC61E24CBF9 /* Frameworks */,
+				A5B806983B9A50D718A684D1A4EDE11A /* Frameworks */,
+				8091FD164BEB98D454B797D0CEDDD300 /* Resources */,
 				269BBAC3969A7B389C08021051F5BD20 /* Headers */,
-				F055B21F20E0A44300662421 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				50974DE9597F38E04064BA58867C8865 /* PBXTargetDependency */,
 			);
 			name = SlimFAQSDK;
 			productName = SlimFAQSDK;
-			productReference = 340CD19A8B2805374258C221E091AE57 /* SlimFAQSDK.framework */;
+			productReference = B99A5B1854191027FA9B0EC5C9097B3A /* SlimFAQSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AB71A9ABC75931A7696A96D443D0B7A2 /* Pods-SlimFAQSDK_Example */ = {
@@ -467,7 +513,7 @@
 			);
 			name = "Pods-SlimFAQSDK_Example";
 			productName = "Pods-SlimFAQSDK_Example";
-			productReference = CC025A4B9D1DDD93E65F35B71EC5CDAB /* Pods_SlimFAQSDK_Example.framework */;
+			productReference = E71BB6C3A78D13DA3095BE23383AC74F /* Pods_SlimFAQSDK_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -477,7 +523,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -487,28 +533,43 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 7DB3F5664B6386041869AAE8640532EA /* Products */;
+			productRefGroup = 64AC5C72E99D58FE85D808D3D13AF9AA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				AB71A9ABC75931A7696A96D443D0B7A2 /* Pods-SlimFAQSDK_Example */,
 				89D55A34487CDA6BF573CA2AADAF0427 /* Pods-SlimFAQSDK_Tests */,
 				A1002E542C035F3ED3F603BB5D50D9EF /* SlimFAQSDK */,
+				0A5DBC0207E68B49FC27B7270D349839 /* SlimFAQSDK-SlimFAQSDK */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F055B21F20E0A44300662421 /* Resources */ = {
+		8091FD164BEB98D454B797D0CEDDD300 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F055B22020E0A45500662421 /* Contents.storyboard in Resources */,
-				F055B22120E0A45500662421 /* CategoryItemCollectionViewCell.xib in Resources */,
-				F055B22220E0A45500662421 /* LoadingStateCollectionViewCell.xib in Resources */,
-				F055B22320E0A45500662421 /* EmptyStateCollectionViewCell.xib in Resources */,
-				F055B22420E0A45500662421 /* QuestionDetailsCollectionViewCell.xib in Resources */,
-				F055B22520E0A45500662421 /* slimFAQImages.xcassets in Resources */,
+				6A680ACC17A151EF9E754995D1C35BB0 /* CategoryItemCollectionViewCell.xib in Resources */,
+				FA5866D9F62D635F6EDA1D933F29174C /* Contents.storyboard in Resources */,
+				2FAD45B8A1EB2707B1494A2ABDB78FC4 /* EmptyStateCollectionViewCell.xib in Resources */,
+				5D5CAA028F02A3C3A8E7B868FD0CFC0F /* LoadingStateCollectionViewCell.xib in Resources */,
+				B581AC63CF5B0D0AD483D9A6477E27DF /* QuestionDetailsCollectionViewCell.xib in Resources */,
+				D55EA7EDDB100018A608DE6EB5FA4375 /* slimFAQImages.xcassets in Resources */,
+				8F8A1191D80B9EEAF363F53BB73A42C8 /* SlimFAQSDK.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCE9A7B8E9BB064E867A2A372C09656C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8371800B7824CFD4D6DF34D37F442AF9 /* CategoryItemCollectionViewCell.xib in Resources */,
+				D03ACA53A893BCFAEFFEC1D00D83D75E /* Contents.storyboard in Resources */,
+				CECC9D85291E393006BFEC7BC4F143A8 /* EmptyStateCollectionViewCell.xib in Resources */,
+				2AB5EABCEF5171DF2406076A9C65BFDA /* LoadingStateCollectionViewCell.xib in Resources */,
+				18905B8E4A8448409E4CF8D8DDB0258C /* QuestionDetailsCollectionViewCell.xib in Resources */,
+				2ED6FE50F8046C8DDCC0DE54C0A31019 /* slimFAQImages.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +581,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F32628459E895398A51C1761D7534BE7 /* Pods-SlimFAQSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB00499ADE5A34938B36F6E56A9A9E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,6 +640,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		50974DE9597F38E04064BA58867C8865 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SlimFAQSDK-SlimFAQSDK";
+			target = 0A5DBC0207E68B49FC27B7270D349839 /* SlimFAQSDK-SlimFAQSDK */;
+			targetProxy = 3F798E9F46FB3A844902A06DC3680A87 /* PBXContainerItemProxy */;
+		};
 		935A243E06E67E98416B86CFF39BA63E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-SlimFAQSDK_Example";
@@ -587,105 +661,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2516EED0C0E2876295FC492EB023F2AD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A49DEF41BB6F86143DE5C6F8976964E /* Pods-SlimFAQSDK_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SlimFAQSDK_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SlimFAQSDK_Tests/Pods-SlimFAQSDK_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6CC67A06D1713461DC88D79947AFAF52 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8D8C1A2536CC9FA7C8AD966EDEAA077 /* SlimFAQSDK.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SlimFAQSDK/SlimFAQSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SlimFAQSDK/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SlimFAQSDK/SlimFAQSDK.modulemap";
-				PRODUCT_MODULE_NAME = SlimFAQSDK;
-				PRODUCT_NAME = SlimFAQSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		72DE40FB1C5C153FFB21191FD8BDDEC8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8D8C1A2536CC9FA7C8AD966EDEAA077 /* SlimFAQSDK.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SlimFAQSDK/SlimFAQSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SlimFAQSDK/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SlimFAQSDK/SlimFAQSDK.modulemap";
-				PRODUCT_MODULE_NAME = SlimFAQSDK;
-				PRODUCT_NAME = SlimFAQSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -738,7 +714,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -748,7 +724,72 @@
 			};
 			name = Debug;
 		};
-		9125D571C38A5C39759C0708552CDDDA /* Release */ = {
+		2A4F385B93FACC1533A9A83819E412D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B79B3B5DB25150EBFE3D875BD68B8EB /* SlimFAQSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SlimFAQSDK/SlimFAQSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SlimFAQSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SlimFAQSDK/SlimFAQSDK.modulemap";
+				PRODUCT_MODULE_NAME = SlimFAQSDK;
+				PRODUCT_NAME = SlimFAQSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		42453D4B3233B20FEA2DFAA03A385B81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B79B3B5DB25150EBFE3D875BD68B8EB /* SlimFAQSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SlimFAQSDK/SlimFAQSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SlimFAQSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SlimFAQSDK/SlimFAQSDK.modulemap";
+				PRODUCT_MODULE_NAME = SlimFAQSDK;
+				PRODUCT_NAME = SlimFAQSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		45EF46EFCC55CE7892DAB850FF60FAF2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1A6401A4E0E116D3A29643130F5C6879 /* Pods-SlimFAQSDK_Example.release.xcconfig */;
 			buildSettings = {
@@ -764,7 +805,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SlimFAQSDK_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SlimFAQSDK_Example/Pods-SlimFAQSDK_Example.modulemap";
@@ -783,7 +824,141 @@
 			};
 			name = Release;
 		};
-		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+		DE8056B453FAAC7B2AA68192A8288542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7A16A8485405FA614DB08A3504201E4 /* Pods-SlimFAQSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SlimFAQSDK_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SlimFAQSDK_Tests/Pods-SlimFAQSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E9A61F0C1577A146878289EB6460EF5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B79B3B5DB25150EBFE3D875BD68B8EB /* SlimFAQSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SlimFAQSDK";
+				INFOPLIST_FILE = "Target Support Files/SlimFAQSDK/ResourceBundle-SlimFAQSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = SlimFAQSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		F83AA9A62F9A75989B1467B7DAA9818B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F1AC5FD1CD42BC8D0941D071726DB2A /* Pods-SlimFAQSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SlimFAQSDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SlimFAQSDK_Example/Pods-SlimFAQSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FCE83445E521826F91413F7005F379A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B79B3B5DB25150EBFE3D875BD68B8EB /* SlimFAQSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SlimFAQSDK";
+				INFOPLIST_FILE = "Target Support Files/SlimFAQSDK/ResourceBundle-SlimFAQSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = SlimFAQSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		FD5ADADC0CB0CEC2BB15A69E2549CF7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A49DEF41BB6F86143DE5C6F8976964E /* Pods-SlimFAQSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SlimFAQSDK_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SlimFAQSDK_Tests/Pods-SlimFAQSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -833,83 +1008,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		F02EB76871A4E6566049931B702DA004 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7A16A8485405FA614DB08A3504201E4 /* Pods-SlimFAQSDK_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SlimFAQSDK_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SlimFAQSDK_Tests/Pods-SlimFAQSDK_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F278064ACFA3CAC1B4ED97B273BB9C8E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F1AC5FD1CD42BC8D0941D071726DB2A /* Pods-SlimFAQSDK_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SlimFAQSDK_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SlimFAQSDK_Example/Pods-SlimFAQSDK_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -917,8 +1022,8 @@
 		25E91DC6310694E67B69299954CD52C4 /* Build configuration list for PBXNativeTarget "Pods-SlimFAQSDK_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F278064ACFA3CAC1B4ED97B273BB9C8E /* Debug */,
-				9125D571C38A5C39759C0708552CDDDA /* Release */,
+				F83AA9A62F9A75989B1467B7DAA9818B /* Debug */,
+				45EF46EFCC55CE7892DAB850FF60FAF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -926,8 +1031,17 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
-				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D74F9F3DA092D010B1237FCCC2AC10F1 /* Build configuration list for PBXNativeTarget "SlimFAQSDK-SlimFAQSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE83445E521826F91413F7005F379A9 /* Debug */,
+				E9A61F0C1577A146878289EB6460EF5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -935,8 +1049,8 @@
 		E3D224CF5CFAF27F0D18DC204BD4990D /* Build configuration list for PBXNativeTarget "SlimFAQSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6CC67A06D1713461DC88D79947AFAF52 /* Debug */,
-				72DE40FB1C5C153FFB21191FD8BDDEC8 /* Release */,
+				42453D4B3233B20FEA2DFAA03A385B81 /* Debug */,
+				2A4F385B93FACC1533A9A83819E412D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -944,8 +1058,8 @@
 		EDFBC03D18CB190A0C56E35FE6A621E6 /* Build configuration list for PBXNativeTarget "Pods-SlimFAQSDK_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2516EED0C0E2876295FC492EB023F2AD /* Debug */,
-				F02EB76871A4E6566049931B702DA004 /* Release */,
+				FD5ADADC0CB0CEC2BB15A69E2549CF7D /* Debug */,
+				DE8056B453FAAC7B2AA68192A8288542 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
