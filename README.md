@@ -1,5 +1,6 @@
 # SlimFAQSDK
 
+[![Carthage compatible](https://img.shields.io/badge/Carthage-Compatible-brightgreen.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Version](https://img.shields.io/cocoapods/v/SlimFAQSDK.svg?style=flat)](https://cocoapods.org/pods/SlimFAQSDK)
 [![License](https://img.shields.io/cocoapods/l/SlimFAQSDK.svg?style=flat)](https://cocoapods.org/pods/SlimFAQSDK)
 [![Platform](https://img.shields.io/cocoapods/p/SlimFAQSDK.svg?style=flat)](https://cocoapods.org/pods/SlimFAQSDK)
@@ -38,7 +39,10 @@ do {
 ```
 
 ### Carthage
-// tbd
+Add following line to your Podfile:
+```ruby
+github "oozou/slimfaqsdk-ios"
+```
 
 ## Author
 
