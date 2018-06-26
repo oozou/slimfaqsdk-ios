@@ -1,6 +1,6 @@
 {
   "name": "SlimFAQSDK",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "SlimFAQ iOS SDK.",
   "description": "SlimFAQSDK provides native UI for SlimFAQ service contents.",
   "homepage": "https://github.com/oozou/slimfaqsdk-ios",
@@ -14,7 +14,7 @@
   },
   "source": {
     "git": "https://github.com/oozou/slimfaqsdk-ios.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "social_media_url": "http://facebook.com/oozou/",
   "platforms": {

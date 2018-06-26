@@ -35,11 +35,19 @@ github "oozou/slimfaqsdk-ios"
 // setup
 SlimFAQSDK.shared.set(clientID: "slimwiki")
 
-// present SlimFAQ screen
+// present SlimFAQ screen using default presentation style
 do {
     try SlimFAQSDK.shared.present(from: self, animated: true, completion: nil)
 } catch {
     print("an error occured: \(error.localizedDescription)")
+}
+
+// or
+
+// retrieve a viewcontroller instance for custom transition
+if let vc = SlimFAQSDK.shared.instantiateFAQViewController() {
+    // vc.transitioningDelegate = ...
+    present(vc, animated: true, completion: nil)
 }
 ```
 
