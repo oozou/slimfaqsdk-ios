@@ -20,7 +20,36 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Presentation style:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SgF-Mf-AYC">
+                                <rect key="frame" x="15" y="89" width="142" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="default" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OY5-Zk-wm8">
+                                <rect key="frame" x="165" y="89" width="54" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u6w-TQ-7Bw">
+                                <rect key="frame" x="15" y="130" width="51" height="31"/>
+                                <connections>
+                                    <action selector="switchAction:" destination="vXZ-lx-hvc" eventType="valueChanged" id="79j-Pm-7eS"/>
+                                </connections>
+                            </switch>
+                        </subviews>
                         <color key="backgroundColor" red="0.0" green="0.69019607843137254" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="u6w-TQ-7Bw" firstAttribute="top" secondItem="SgF-Mf-AYC" secondAttribute="bottom" constant="20" id="7NZ-E1-ba4"/>
+                            <constraint firstItem="OY5-Zk-wm8" firstAttribute="top" secondItem="SgF-Mf-AYC" secondAttribute="top" id="GVz-19-m2C"/>
+                            <constraint firstItem="SgF-Mf-AYC" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="15" id="MtF-i5-9Uc"/>
+                            <constraint firstItem="u6w-TQ-7Bw" firstAttribute="leading" secondItem="SgF-Mf-AYC" secondAttribute="leading" id="Qfd-ko-qTV"/>
+                            <constraint firstItem="SgF-Mf-AYC" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="25" id="Rsk-zo-RP9"/>
+                            <constraint firstItem="OY5-Zk-wm8" firstAttribute="leading" secondItem="SgF-Mf-AYC" secondAttribute="trailing" constant="8" symbolic="YES" id="ahP-qa-FVo"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="OY5-Zk-wm8" secondAttribute="trailing" constant="10" id="apy-lK-yHJ"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="SlimFAQSDK Example" id="gwm-48-xaa">
                         <barButtonItem key="rightBarButtonItem" systemItem="bookmarks" id="yN4-Kd-Vuc">
@@ -29,6 +58,10 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="presentationValueLabel" destination="OY5-Zk-wm8" id="gXm-oY-bfI"/>
+                        <outlet property="switchControl" destination="u6w-TQ-7Bw" id="KfI-xn-6Br"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

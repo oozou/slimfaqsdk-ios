@@ -4,6 +4,7 @@ use_frameworks!
 
 target 'SlimFAQSDK_Example' do
   pod 'SlimFAQSDK', :path => '../'
+  pod "ZFDragableModalTransition"
 
   target 'SlimFAQSDK_Tests' do
     inherit! :search_paths

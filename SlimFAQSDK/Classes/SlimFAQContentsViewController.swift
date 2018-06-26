@@ -242,23 +242,25 @@ extension SlimFAQContentsViewController: StoryboardIdentifiable {}
 extension SlimFAQContentsViewController {
     
     @discardableResult
-    static func present(from sourceViewController: UIViewController, clientId: String, animated: Bool, completion: (()->Void)?) -> SlimFAQContentsViewController {
-        
+    static func present(from sourceViewController: UIViewController, clientId: String, animated: Bool, completion: (()->Void)?) -> UIViewController {
+        let targetViewController = instantiate(with: clientId)
+        targetViewController.modalPresentationStyle = .overCurrentContext
+        sourceViewController.present(targetViewController, animated: animated, completion: completion)
+        return targetViewController
+    }
+    
+    static func instantiate(with clientId: String) -> UINavigationController {
         let viewModel = SlimFAQContentsViewModel(mode: .contents(clientId: clientId))
-        let targetViewController = UIStoryboard(storyboard: .Contents).instantiate(viewControllerType: SlimFAQContentsViewController.self)
-        viewModel.delegate = targetViewController
-        targetViewController.viewModel = viewModel
+        let vc = UIStoryboard(storyboard: .Contents).instantiate(viewControllerType: SlimFAQContentsViewController.self)
+        viewModel.delegate = vc
+        vc.viewModel = viewModel
         
-        let nc = UINavigationController(rootViewController: targetViewController)
+        let nc = UINavigationController(rootViewController: vc)
         nc.setNavigationBarHidden(true, animated: false)
-        nc.modalPresentationStyle = .overCurrentContext
-        
         nc.view.backgroundColor = UIColor.black.withAlphaComponent(0.55)
         nc.view.isOpaque = false
         
-        sourceViewController.present(nc, animated: animated, completion: completion)
-        
-        return targetViewController
+        return nc
     }
     
     @discardableResult

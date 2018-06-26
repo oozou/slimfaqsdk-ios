@@ -1,16 +1,23 @@
 PODS:
-  - SlimFAQSDK (0.1.0)
+  - SlimFAQSDK (0.1.2)
+  - ZFDragableModalTransition (0.6)
 
 DEPENDENCIES:
   - SlimFAQSDK (from `../`)
+  - ZFDragableModalTransition
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ZFDragableModalTransition
 
 EXTERNAL SOURCES:
   SlimFAQSDK:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SlimFAQSDK: bfbb79f33fe6b6d255ba97e2c8b8a61bfaf60230
+  SlimFAQSDK: 28b91b59fbcc9eca9f750ae746d928a734b3093e
+  ZFDragableModalTransition: 0d294eaaba6edfcb9839595de765f9ca06a4b524
 
-PODFILE CHECKSUM: a92e4c6a398eb8592476766c85294518080ebc4d
+PODFILE CHECKSUM: 531118c98752d74360fd71c0e1f7bf2a9de95d81
 
 COCOAPODS: 1.5.3
