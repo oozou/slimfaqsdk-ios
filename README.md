@@ -38,7 +38,7 @@ SlimFAQSDK.shared.set(clientID: "slimwiki")
 // present SlimFAQ screen
 do {
     try SlimFAQSDK.shared.present(from: self, animated: true, completion: nil)
-} catch {
+} catch let error {
     print("an error occured: \(error.localizedDescription)")
 }
 ```
